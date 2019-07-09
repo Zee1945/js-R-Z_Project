@@ -1,0 +1,145 @@
+.jumbotron{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 45px;
+	padding-left: 45px;
+
+
+}
+.jumbotron img{
+	width: 100px;
+	height: 90px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-radius: 8px;
+}
+/*------------SideBar---------------*/
+
+    #body-row {
+        margin-left:0;
+        margin-right:0;
+    }
+    #sidebar-container {
+        min-height: 100vh;   
+        background-color: #333;
+        padding: 0;
+    }
+
+
+    .sidebar-expanded {
+        width: 230px;
+    }
+    .sidebar-collapsed {
+        width: 60px;
+    }
+
+
+    #sidebar-container .list-group a {
+        height: 50px;
+        color: white;
+    }
+
+
+    #sidebar-container .list-group .sidebar-submenu a {
+        height: 45px;
+        padding-left: 30px;
+    }
+    .sidebar-submenu {
+        font-size: 0.9rem;
+    }
+
+
+    .sidebar-separator-title {
+        background-color: #333;
+        height: 35px;
+    }
+    .sidebar-separator {
+        background-color: #333;
+        height: 25px;
+    }
+    .logo-separator {
+        background-color: #333;    
+        height: 60px;
+    }
+
+
+    #sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+      content: " \f0d7";
+      font-family: FontAwesome;
+      display: inline;
+      text-align: right;
+      padding-left: 10px;
+    }
+
+    #sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+      content: " \f0da";
+      font-family: FontAwesome;
+      display: inline;
+      text-align: right;
+      padding-left: 10px;
+    }
+    /*----last SideBar------*/
+    .card{
+    	
+    }
+    .card img{
+
+    	height: 300px;
+    	width: `150px;
+    	position:;
+    	border-radius: 10px;
+    }
+    /*search nav css*/
+     .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 30px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 5px;
+    width: 300px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #6c757d;
+    }
+
+    .search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+    /*-------------search nav last-------------*/
+    .footer{
+	
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: red;
+	  color: white;
+	  text-align: center;
+}
+
